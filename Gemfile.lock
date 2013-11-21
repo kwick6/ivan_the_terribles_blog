@@ -44,6 +44,7 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     columnize (0.3.6)
+    dalli (2.6.4)
     debug_inspector (0.0.2)
     debugger (1.6.0)
       columnize (>= 0.3.1)
@@ -68,6 +69,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    memcachier (0.0.2)
     method_source (0.8.1)
     mime-types (1.23)
     multi_json (1.7.7)
@@ -153,9 +155,11 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 3.2.1)
+  dalli
   faker
   hirb
   jquery-rails
+  memcachier
   pg
   pry-debugger
   pry-doc
