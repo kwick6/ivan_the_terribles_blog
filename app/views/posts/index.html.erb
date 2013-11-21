@@ -1,7 +1,8 @@
 <h1>Ivan the Terrible's Blog</h1>
 
 <section class="blog">
-  <%= render @posts %>
+  <%= render :partial => 'post', :collection => @posts %>
+  <%= will_paginate @posts %>
 </section>
 
 <br />
