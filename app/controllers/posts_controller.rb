@@ -4,7 +4,6 @@ class PostsController < ApplicationController
   def index
     @posts = Post.page(params[:page]).per(5).search(params[:search])
 
-    logger.info("First Posts count is #{@posts.count}")
     logger.info("Params search is #{params[:search]}")
 
     respond_to do |format|
