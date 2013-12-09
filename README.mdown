@@ -1,3 +1,7 @@
+Fix Security Issues this blog: Test fixes and security with Brakeman Gem.
+Here is the new repository for the portfolio site I am working on.
+![Screenshot](https://raw.github.com/kwick6/ivan_the_terribles_blog/master/app/assets/images/brakeman-report.png)
+
 # My New Blog!
 
 I've got a lot to say, and now I have a place to say it!!!!!
@@ -11,3 +15,4 @@ I know it is a little slow (but totes worth it!!!!)... _Do you know how I can ma
 # Optimize
 
 Added the will_paginate gem and moved comments to the posts show page.
+
