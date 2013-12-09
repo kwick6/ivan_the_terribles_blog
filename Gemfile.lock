@@ -70,6 +70,9 @@ GEM
     faker (1.1.2)
       i18n (~> 0.5)
     fastercsv (1.5.5)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     haml (4.0.4)
       tilt
     highline (1.6.20)
@@ -186,6 +189,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   dalli
   faker
+  figaro
   hirb
   jquery-rails
   kaminari

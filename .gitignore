@@ -22,3 +22,6 @@
 .project
 __eclim_temp_Vagrantfile
 .rspec
+
+# Ignore application configuration
+/config/application.yml
